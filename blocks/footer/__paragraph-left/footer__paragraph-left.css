@@ -1,0 +1,14 @@
+.footer__paragraph-left {
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  height: 140px;
+  width: 412px;
+  display: flex;
+  align-items: center;
+  margin-left: 109px;
+}
+
+.footer__paragraph-left p{
+  padding: 0;
+  margin: 0;
+}

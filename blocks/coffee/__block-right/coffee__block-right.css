@@ -1,0 +1,6 @@
+.coffee__block-right {
+  width: 65%;
+  max-height: 500px;
+  display: flex;
+  justify-content: space-between;
+}

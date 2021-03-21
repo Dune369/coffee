@@ -1,0 +1,13 @@
+.header__search-button {
+  background: transparent;
+  background-image: url(../../../images/search.png);
+  background-size: cover;
+  height: 22px;
+  width: 22px;
+  border: none;
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  outline: none;
+  cursor: pointer;
+}

@@ -4,23 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="././images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./pages/pages.css">
-    <title>Document</title>
+    <title>Coffee Time</title>
 </head>
 
-<body>
+<body class="body">
 
     <div class="page">
 
-      <header class="header"></header>
+      <header class="header">
+
+        <img class="header__logo" src="./images/logo.png" alt="Логотип Coffee shop">
+
+        <nav class="header__navigation">
+          <ul class="header__navigation-menu">
+            <li class="header__nav header__nav_active">Home</li>
+            <li class="header__nav">Info</li>
+            <li class="header__nav">Teas</li>
+            <li class="header__nav">Offer</li>
+            <li class="header__nav">Contact</li>
+          </ul>
+        </nav>
+
+
+        <div class="header__search">
+          <form class="header__form">
+            <input type="text" placeholder="" class="header__input">
+            <button type="submit" class="header__search-button"></button>
+          </form>
+        </div>
+
+        <div class="header__icon-social">
+          <ul class="header__icon">
+             <li class="header__icon-item"><img src="././images/Facebook.png" halt="Facebook" class="header__social"></li>
+             <li class="header__icon-item"><img src="././images/Instagram.png" alt="Instagram" class="header__social"></li>
+             <li class="header__icon-item"><img src="././images/Twitter.png" alt="Twitter" class="header__social"></li>
+             <li class="header__icon-item"><img src="././images/Youtube.png" alt="Youtube" class="header__social"></li>
+          </ul>
+        </div>
+
+      </header>
 
       <main class="main">
 
-        <section class="coffee"></section>
+        <section class="coffee">
+
+          <div class="coffee__content">
+            <h1 class="coffee__title">Coffee Time</h1>
+            <p class="coffee__sabtitle">Special offer</p>
+            <div class="coffee__buttom"><a href="#" class="coffee__link">Перейти</a></div>
+          </div>
+
+          <div class="coffee__block-right">
+            <div class="coffee__circle">
+              <p class="coffee__paragraph"><span class="coffee__paragraph-size">UP TO</span> 50% OFF</p>
+            </div>
+            <img class="coffee__img" src="././images/Image-coffee.png" alt="Кофе">
+          </div>
+
+        </section>
 
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__paragraph-left">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+            sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+
+        <div class="footer__paragraph-right">
+          <p class="footer__uppercase">www.yoursite.com</p>
+          <p>Av. Lorem ipsum dolor 2045
+            Dolor sit Amet - Adress</p>
+
+        </div>
+
+
+      </footer>
 
     </div>
 

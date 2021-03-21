@@ -2,10 +2,42 @@
 @import url('../fonts/fonts.css');
 @import url('../blocks/body/body.css');
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__navigation/header__navigation.css');
+@import url('../blocks/header/__navigation-menu/header__navigation-menu.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav/_active/header__nav_active.css');
+@import url('../blocks/header/__search/header__search.css');
+@import url('../blocks/header/__search-button/header__search-button.css');
+@import url('../blocks/header/__input/header__input.css');
+@import url('../blocks/header/__form/header__form.css');
+@import url('../blocks/header/__icon/header__icon.css');
+@import url('../blocks/header/__ivon-item/header__icon-item.css');
+@import url('../blocks/header/__ivon-social/header__iсon-social.css');
+@import url('../blocks/header/__social/header__social.css');
+
+
 @import url('../blocks/main/main.css');
+
 @import url('../blocks/coffee/coffee.css');
+@import url('../blocks/coffee/__block-right/coffee__block-right.css');
+@import url('../blocks/coffee/__buttom/coffee__buttom.css');
+@import url('../blocks/coffee/__content/coffee__content.css');
+@import url('../blocks/coffee/__img/coffee__img.css');
+@import url('../blocks/coffee/__paragraph/coffee__paragraph.css');
+@import url('../blocks/coffee/__sabtitle/coffee__sabtitle.css');
+@import url('../blocks/coffee/__title/coffee__title.css');
+@import url('../blocks/coffee/__link/coffee__link.css');
+@import url('../blocks/coffee/__circle/coffee__circle.css');
+@import url('../blocks/coffee/__paragraph-size/coffee__paragraph-size.css');
+
+
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__paragraph-left/footer__paragraph-left.css');
+@import url('../blocks/footer/__paragraph-right/footer__paragraph-right.css');
+@import url('../blocks/footer/__uppercase/footer__uppercase.css');
 
 
 

@@ -1,0 +1,5 @@
+.header__icon-item {
+  list-style-type: none;
+  margin-left: 10px;
+  cursor: pointer;
+}

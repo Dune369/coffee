@@ -1,0 +1,10 @@
+.body {
+  min-width: 900px;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #fff;
+  background-image: url(../../images/background-coffe-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #797876;
+}

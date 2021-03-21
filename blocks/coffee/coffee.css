@@ -1,0 +1,7 @@
+.coffee {
+  max-height: 503px;
+  min-width: 320px;
+  max-width: 1184px;
+  margin: auto;
+  display: flex;
+}
